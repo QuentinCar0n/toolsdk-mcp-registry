@@ -8,7 +8,7 @@
   "runtime": "docker",
   "license": "AGPL-3.0",
   "author": "soma-intelligence",
-  "packageVersion": "0.0.2",
+  "packageVersion": "0.1.0",
   "binArgs": [
     "run",
     "--rm",
@@ -17,7 +17,7 @@
     "OHS_MCP_URL",
     "-e",
     "OHS_MCP_KEY",
-    "ghcr.io/soma-intelligence/open-health-sync:0.0.2",
+    "ghcr.io/soma-intelligence/open-health-sync:0.1.0",
     "mcp"
   ],
   "env": {
